@@ -1,0 +1,61 @@
+:root {
+    --ff-inter: "Inter", sans-serif;
+    --white: #fff;
+    --lightGrey: #ebf0ee;
+    --grey: #d0d9d4;
+    --lightGreen: #c5e9da;
+    --lime: #36b37f;
+    --green: #008552;
+    --darkBlue: #344563;
+  
+    --darkerBlue: #091e42;
+  }
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6070ff;
+  }
+  .nav-item {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  .headline {
+    /* background: url(./images/Header.png) 100% 100% no-repeat; */
+    background: url(./images/Header.png);
+    background-repeat: no-repeat;
+    background-size: 97% 100%;
+    background-position: center;
+    height: 91vh;
+  }
+  
+  .header h1 {
+    color: var(--darkerBlue);
+    font-size: 3.1rem;
+    font-weight: 700;
+    line-height: 60px;
+    font-style: bold;
+    letter-spacing: 0.3700000047683716px;
+  }
+  .header p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #344563;
+  }
+  
+  .header span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+  
+  /* work section */
+  
+  .work {
+    background-color: #e5e5e5;
+  }
+  
