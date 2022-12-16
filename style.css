@@ -7,9 +7,9 @@
   --lime: #36b37f;
   --green: #008552;
   --darkBlue: #344563;
-
   --darkerBlue: #091e42;
 }
+
 /* body::before {
   display: block;
   content: "";
@@ -21,6 +21,7 @@
   line-height: 20px;
   color: #6070ff;
 }
+
 .nav-item {
   font-size: 15px;
   font-weight: 500;
@@ -44,6 +45,7 @@
   font-style: bold;
   letter-spacing: 0.3700000047683716px;
 }
+
 .header p {
   font-size: 23px;
   font-weight: 400;
@@ -64,6 +66,7 @@
   gap: 8.875rem;
   padding: 8.875rem;
 }
+
 .work {
   background-color: #e5e5e5;
 }
@@ -73,11 +76,13 @@
   font-weight: 700;
   line-height: 52px;
 }
+
 .work h5 {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
 }
+
 .work kbd {
   background-color: #c1c7d0;
   border-radius: 100%;
@@ -122,16 +127,19 @@
   letter-spacing: 0.03em;
   margin-top: 2.5rem;
 }
+
 /* about section */
 .about {
   margin: 8.876rem;
 }
+
 .about1 h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   color: #091e42;
 }
+
 .about p {
   font-size: 1.2rem;
   font-weight: 400;
@@ -151,12 +159,14 @@
 .accordion-button:not(.collapsed) {
   color: red;
 }
+
 .accordion-body .col {
   width: 122px;
   height: 120px;
   margin-right: 12px;
   background-color: #f7f7f9;
 }
+
 .accordion-body .col span {
   font-size: 15px;
   font-weight: 500;
