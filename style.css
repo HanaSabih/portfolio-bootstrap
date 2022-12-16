@@ -1,0 +1,165 @@
+:root {
+  --ff-inter: "Inter", sans-serif;
+  --white: #fff;
+  --lightGrey: #ebf0ee;
+  --grey: #d0d9d4;
+  --lightGreen: #c5e9da;
+  --lime: #36b37f;
+  --green: #008552;
+  --darkBlue: #344563;
+
+  --darkerBlue: #091e42;
+}
+/* body::before {
+  display: block;
+  content: "";
+  height: 60px;
+} */
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #6070ff;
+}
+.nav-item {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.headline {
+  /* background: url(./images/Header.png) 100% 100% no-repeat; */
+  background: url(./images/Header.png);
+  background-repeat: no-repeat;
+  background-size: 97% 100%;
+  background-position: center;
+  height: 91vh;
+}
+
+.header h1 {
+  color: var(--darkerBlue);
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 60px;
+  font-style: bold;
+  letter-spacing: 0.3700000047683716px;
+}
+.header p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #344563;
+}
+
+.header span,
+.about1 span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+/* work section */
+#work {
+  gap: 8.875rem;
+  padding: 8.875rem;
+}
+.work {
+  background-color: #e5e5e5;
+}
+
+.work h4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.work h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.work kbd {
+  background-color: #c1c7d0;
+  border-radius: 100%;
+  font-size: 0.5rem;
+}
+
+.work p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+/* .badge {
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  color: #6070ff;
+  background-color: #ebebff;
+  --bs-badge-color: red;
+} */
+.work span {
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.04em;
+  padding: 0.25rem 0.75rem;
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.work a {
+  width: 7.75rem;
+  height: 3rem;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.03em;
+  margin-top: 2.5rem;
+}
+/* about section */
+.about {
+  margin: 8.876rem;
+}
+.about1 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #091e42;
+}
+.about p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about1 button {
+  width: 10.125rem;
+  height: 3rem;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.accordion-button:not(.collapsed) {
+  color: red;
+}
+.accordion-body .col {
+  width: 122px;
+  height: 120px;
+  margin-right: 12px;
+  background-color: #f7f7f9;
+}
+.accordion-body .col span {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #253858;
+}
