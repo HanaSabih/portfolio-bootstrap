@@ -16,8 +16,8 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light px-5 sticky-top">
-      <div class="container-fluid mx-5 px-5">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light px-xxl-5 sticky-top">
+      <div class="container-fluid mx-xxl-5  px-xxl-5">
         <a class="navbar-brand logo" href="#">My Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
         <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portoflio</a>
+                <a class="nav-link " aria-current="page" href="#work">Portoflio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#work">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -40,15 +40,15 @@
     </nav>
     <!-- end of navbar -->
     <!-- showcase -->
-    <section class="bg-white text-dark p-5  text-start  d-flex justify-content-around headline">
+    <section class="bg-white text-dark p-xxl-5  text-start  d-flex justify-content-around headline">
         <div class="container d-flex justify-content-around align-items-center  ">
             <div class="align-items-center  justify-content-sm-center w-75">
-                <div class="header mb-2">
+                <div class="header mb-xxl-2">
                     <h1>I’m Alexandra<br>Glad to see you!</h1>
                     <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                     <span>LET’S CONNECT</span>
                 </div>
-                <div class="icons-contact mb-3 ">
+                <div class="icons-contact mb-xxl-3 ">
                     <img src="./images/icons/twiter.png" alt="twitter" />
                     <img src="./images/icons/linkedin.png" alt="Linkedin" />
                     <img src="./images/icons/mediu.png" alt="medium" />
@@ -62,20 +62,20 @@
     <!-- work section -->
     <section id="work" class="work  d-grid">
       <!-- project single -->
-        <div class="card p-4 ">
+        <div class="card p-xxl-4 ">
           <div class="row ">
 
           <div class="col-sm-6"><img class="card-img-top " src="./images/work/work1.png" alt="project1"></div>
             
           <div class="col-sm-6 ">
-          <div class="card-body  p-4">
+          <div class="card-body  p-xxl-4">
             <h4 class="pb-1">Tonic</h4>
-            <h5 class="pt-1 pb-3">CANOPY <kbd></kbd></h5>
+            <h5 class="pt-1 pb-3">CANOPY <kbd  ></kbd></h5>
             <p class="pb-3">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <span class="badge  text-bg">html</span>
-            <span class="badge text-bg">css</span>
+            <span class="badge  text-bg ">html</span>
+            <span class="badge text-bg ">css</span>
             <span class="badge text-bg">javaScript</span><br>
-            <a href="#" class="btn btn-outline-primary ">See Project</a>
+            <a href="#" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">See Project</a>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
             <span class="badge text-bg">Ruby on rails</span>
             <span class="badge text-bg">css</span>
             <span class="badge text-bg">javaScript</span><br>
-            <a href="#" class="btn btn-outline-primary ">See Project</a>
+            <a href="#" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">See Project</a>
           </div>
         </div>
         <div class="col-sm-6"><img class="card-img-top " src="./images/work/work2.png" alt="project2"></div>
@@ -116,7 +116,7 @@
             <span class="badge text-bg">Ruby on rails</span>
             <span class="badge text-bg">css</span>
             <span class="badge text-bg">javaScript</span><br>
-            <a href="#" class="btn btn-outline-primary ">See Project</a>
+            <a href="#" class="btn btn-outline-primary  " data-bs-toggle="modal" data-bs-target="#exampleModal">See Project</a>
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@
             <span class="badge text-bg">Ruby on rails</span>
             <span class="badge text-bg">css</span>
             <span class="badge text-bg">javaScript</span><br>
-            <a href="#" class="btn btn-outline-primary ">See Project</a>
+            <a href="#" class="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">See Project</a>
           </div>
         </div>
         <div class="col-sm-6"><img class="card-img-top " src="./images/work/work4.png" alt="project4"></div>
@@ -259,6 +259,94 @@
       </div>
       <div>
     </section>
+    <!-- end about section -->
+    <!-- contact section -->
+    <section id="contact" class="contact text-center d-flex justify-content-center align-items-center flex-column ">
+      
+      <h2>Contact me</h2>
+      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+      <form action="https://formspree.io/f/maykropo"
+      method="post"
+      class="contact-form text-center">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input
+          class="form-control"
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Alexandra Loremipsum"
+          maxlength="30"
+          required
+        />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="disnone">Email address </label>
+        <input
+          class="form-control"
+          name="email"
+          id="email"
+          type="email"
+          placeholder="alexandra@gmail.com"
+          required
+        />
+        </div>
+        <div class="mb-3 ">
+          <label for="msg" class="disnone">Enter text here</label>
+        <textarea
+          class="form-control msg-text"
+          id="msg"
+          name="user_message"
+          placeholder="Write your message here"
+          maxlength="500"
+          rows="5"
+          required
+        ></textarea>
+        </div>
+        <a href="#" type="submit" class="btn btn-outline-primary ">Get My Resume</a>
+
+      </form>
+
+    </section>
+    <!-- end contact section -->
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title " id="exampleModalLabel">Tonic</h2>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>CANOPY</h4>
+        <img class="modal-img " src="./images/work/work1.png" alt="project1">
+        <div class="description row mt-4">
+          <div class="description-text col-sm-8">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+      </div>
+      <div class="links-buttons col-sm-4">
+        <div class="tags">
+        <span class="badge text-bg">html</span>
+            
+            <span class="badge text-bg">css</span>
+            <span class="badge text-bg">javaScript</span><br>
+            <span class="badge text-bg">github</span>
+            <span class="badge text-bg">ruby</span>
+            <span class="badge text-bg">Bootstraps</span>
+          </div>
+          <hr>
+          <div class="butt-links">
+            <a href="#" class="btn btn-outline-primary mb-3" >See live <img src="./images/modal/Icon-model.png" alt="See live"></a>
+            <a href="#" class="btn btn-outline-primary  mb-3" >See Source <img src="./images/modal/github-modal.png" alt="See Source"></a>
+          </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
